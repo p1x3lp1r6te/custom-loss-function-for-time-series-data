@@ -27,4 +27,35 @@ Custom Loss = λ₁(MSE) + λ₂(Smoothness Penalty)
 - Machine Learning
 
 ## How to Run
+
+### 1. Clone the Repository
 ```bash
+git clone https://github.com/your-username/custom-loss-time-series.git
+cd custom-loss-time-series
+```
+
+### 2. Install Dependencies
+Create a `requirements.txt` file from the libraries used in the notebooks and run:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Open the Jupyter Notebook
+```bash
+jupyter notebook
+```
+
+or
+
+```bash
+jupyter lab
+```
+
+### 4. Run the Notebook
+Open any of the provided model notebooks and run the cells sequentially.
+
+## Notes
+- Datasets were not uploaded due to large file size.
+- Update dataset paths inside the notebooks before running.
+- The repository currently contains multiple model implementations in `.ipynb` format.
